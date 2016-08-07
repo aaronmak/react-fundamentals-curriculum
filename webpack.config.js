@@ -22,7 +22,11 @@ module.exports = {
           presets: ['es2015']
         }
       },
-      { test: /\.css$/, loader: "style-loader!css-loader" }
+      { test: /\.css$/, loader: "style-loader!css-loader" },
+      {
+        test: /\.svg$/,
+        loader: 'file'
+      }
     ]
   },
   plugins: [HTMLWebpackPluginConfig]

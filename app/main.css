@@ -1,0 +1,23 @@
+.input-container {
+  width: 100%;
+  top: 60px;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.hero-header {
+  color: white;
+}
+
+.input-container-inner {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-container-inner .form-control {
+  margin: 30px 0;
+}
