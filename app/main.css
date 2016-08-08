@@ -1,6 +1,6 @@
 .input-container {
   width: 100%;
-  top: 60px;
+  top: 50px;
   bottom: 0;
   position: absolute;
   text-align: center;
@@ -20,4 +20,25 @@
 
 .input-container-inner .form-control {
   margin: 30px 0;
+}
+
+.navbar-default {
+  background: #f36a34;
+  border: none;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar input {
+  margin-right: 10px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white;
 }

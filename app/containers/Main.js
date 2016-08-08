@@ -8,9 +8,19 @@ var Main = React.createClass({
     console.log(bgImg);
     return (
       <div>
-        <div className="nav-bar-container">
-          <h1>Main.js Header</h1>
-        </div>
+        <nav className="navbar navbar-default">
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <a className="navbar-brand" href="#">Weather Genie</a>
+            </div>
+            <form className="navbar-form navbar-right">
+              <div className="form-group">
+               <input type="text" className="form-control" placeholder="St. George, Utah" />
+              </div>
+              <button type="submit" className="btn btn-success">Get Weather</button>
+            </form>
+          </div>
+        </nav>
         <div className="input-container" style={styles.backgroundBody}>
           {this.props.children}
         </div>
